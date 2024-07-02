@@ -1,0 +1,17 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:deploy": "pnpm deploy -F . --prod --force dist-deployed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "dependencies": {
+    "firebase-admin": "^12.2.0"
+  }
+}
